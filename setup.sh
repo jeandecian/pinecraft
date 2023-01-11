@@ -5,6 +5,10 @@ sudo apt update
 sudo apt upgrade
 
 echo
+echo "[INFO] Installing Git ..."
+sudo apt install git
+
+echo
 echo "[INFO] Installing OpenJDK 17 ..."
 sudo apt install openjdk-17-jre
 echo "[INFO] Checking Java version ..."
